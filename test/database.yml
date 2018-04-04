@@ -1,0 +1,6 @@
+mysql:
+  adapter: mysql2
+  host: localhost
+  username: minero-aoki
+  database: test
+  encoding: utf8

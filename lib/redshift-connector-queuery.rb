@@ -1,0 +1,3 @@
+require 'redshift_connector/queuery_data_source'
+require 'redshift_connector/queuery_direct_data_source'
+require 'redshift_connector/queuery_exporter'
