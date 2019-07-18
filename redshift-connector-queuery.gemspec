@@ -14,7 +14,6 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.1.0'
   s.add_dependency 'redshift-connector', '>= 7.0.1'
-  s.add_dependency 'redshift-connector-data_file', '>= 7.1.1'
   s.add_dependency 'queuery_client', '~> 0.9.0'
   s.add_development_dependency 'test-unit'
   s.add_development_dependency 'rake'
