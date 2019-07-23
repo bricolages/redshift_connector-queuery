@@ -3,6 +3,8 @@
 redshift_connector adapter for Queuery (Redshift HTTP API).
 Queuery is Cookpad internal system, you may not need this library.
 
+This library is formerly called as "redshift-connector-queuery".
+
 ## Setup
 
 Add following line to your Gemfile.
