@@ -1,10 +1,16 @@
-# redshift-connector-queuery
+# redshift_connector adapter for Queuery
 
-Queuery Redshift HTTP API adapter for redshift-connector.
+redshift_connector adapter for Queuery (Redshift HTTP API).
+Queuery is Cookpad internal system, you may not need this library.
 
 ## Setup
 
-Add `config/initializer/redshift-connector.rb` as following:
+Add following line to your Gemfile.
+```
+gem 'redshift_connector-queuery'
+```
+
+Add `config/initializer/redshift_connector.rb` as following:
 ```
 QueueryClient.configure do |config|
   config.endpoint = "https://queuery.example.com"
