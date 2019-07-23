@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.name = 'redshift_connector-queuery'
-  s.version = '9.0.0'
+  s.version = '10.0.0'
   s.summary = 'Queuery adapter for redshift_connector'
   s.license = 'MIT'
 
