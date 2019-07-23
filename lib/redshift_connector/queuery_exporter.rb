@@ -21,6 +21,7 @@ module RedshiftConnector
       stmt = @query.to_sql
       @logger.info "[SQL/Queuery] #{stmt.strip}"
       # FIXME: support enable_sort
+      # FIXME: pass bundle_params?
       @bundle = @ds.execute_query(stmt)
       @bundle
     end
