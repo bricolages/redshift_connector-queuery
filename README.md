@@ -9,6 +9,7 @@ This library is formerly called as "redshift-connector-queuery".
 
 Add following line to your Gemfile.
 ```
+gem 'redshift_connector'
 gem 'redshift_connector-queuery'
 ```
 
