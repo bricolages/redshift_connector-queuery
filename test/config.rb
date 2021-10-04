@@ -3,7 +3,7 @@ GarageClient.configure do |config|
 end
 
 QueueryClient.configure do |config|
-  config.endpoint = ENV['QUEUERY_HOST']
+  config.endpoint = ENV['QUEUERY_ENDPOINT']
   config.token = ENV['QUEUERY_TOKEN']
   config.token_secret = ENV['QUEUERY_TOKEN_SECRET']
 end
