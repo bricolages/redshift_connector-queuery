@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
 
   s.required_ruby_version = '>= 2.1.0'
-  s.add_dependency 'redshift_connector', '~> 8.0'
-  s.add_dependency 'queuery_client', '~> 1.0'
+  s.add_dependency 'redshift_connector', '~> 8.1'
+  s.add_dependency 'queuery_client', '~> 1.1'
   s.add_development_dependency 'test-unit'
   s.add_development_dependency 'rake'
 end
