@@ -13,8 +13,8 @@ module RedshiftConnector
       ExporterBuilder.new(ds: self, exporter_class: QueueryExporter)
     end
 
-    def execute_query(stmt, params = [])
-      @client.query(stmt, params)
+    def execute_query(stmt, params = [], enable_cast: false)
+      @client.query(stmt, params, enable_cast: enable_cast)
     rescue QueueryClient::QueryError => ex
       raise ExportError, ex.message
     end
